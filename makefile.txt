@@ -1,7 +1,0 @@
-program:*.sh
-        touch README.md
-        echo "# Guessing game" >README.md
-        echo "\nDate make ran at:" >> README.md
-	date >> README.md
-	echo "\nNumber of lines file guessthenumber.sh contains:" >> README.md
-	cat guessthenumber.sh | wc -l >> README.md
